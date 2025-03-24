@@ -4,11 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LRaiders</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-    <h1>This is he Raiders hate page 🥷🏿😤</h1>
-    <p>On this website I will show why the Raiders are not a good team, and why they won't make the super bowl in the next 10 years</p>
+    <nav id="main-nav">
+        <ul>
+            <li><a href="#header" class="active">Home</a></li>
+            <li><a href="#players">Players</a></li>
+            <li><a href="#history">History</a></li>
+            <li><a href="#stats">Stats</a></li>
+        </ul>
+    </nav>
+
+    <div id="header" class="section">
+        <h1>This is the Raiders hate page 🥷🏿😤</h1>
+        <p class="subtitle">On this website I will show why the Raiders are not a good team, and why they won't make the super bowl in the next 10 years</p>
+        
+        <div class="carousel-container">
+            <div class="carousel">
+                <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/lv.png&800x500" class="carousel-img active" alt="Image 1">
+                <img src="" class="carousel-img" alt="Image 2">
+                <img src="800x400" class="carousel-img" alt="Image 3">
+                <img src="800x400" class="carousel-img" alt="Image 4">
+            </div>
+            <button class="carousel-button prev">❮</button>
+            <button class="carousel-button next">❯</button>
+        </div>
+    </div>
+
+    <div id="players" class="section">
+        <h2>Players on the Raiders</h2>
+        <div class="stats-container">
+            <div class="stat-card">
+                <h3>Offense</h3>
+                <p>The Raiders have a lot of players on their team, but they just can't score.</p>
+                <div class="rating">Rating: 2/10</div>
+            </div>
+            <div class="stat-card">
+                <h3>Defense</h3>
+                <p>Their defense is equally disappointing.</p>
+                <div class="rating">Rating: 3/10</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="history" class="section">
+        <h2>The History of the Raiders</h2>
+        <p>The Raiders have been a laughingstock of the NFL for years, plagued by terrible management, constant losing seasons, and questionable draft picks. Their last Super Bowl win was in 1984, and since then, they've been stuck in mediocrity, cycling through coaches and quarterbacks with no real success.</p>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h4>1984</h4>
+                <p>Last Super Bowl Win</p>
+            </div>
+            <div class="timeline-item">
+                <h4>2020</h4>
+                <p>Move to Las Vegas</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="stats" class="section">
+        <h2>Performance Stats</h2>
+        <div class="stats-grid">
+            <div class="stat-box losses">
+                <span class="number">0</span>
+                <span class="label">Super Bowls in 39 years</span>
+            </div>
+            <div class="stat-box ranking">
+                <span class="number">32</span>
+                <span class="label">NFL Ranking</span>
+            </div>
+        </div>
+    </div>
 </body>
+<script src="script.js"></script>
 </html>
 
 
